@@ -38,7 +38,7 @@ set nobackup
 set scrolloff=10
 
 " Do not wrap lines. Allow long lines to extend as far as the line goes.
-set nowrap
+set wrap
 
 " While searching though a file incrementally highlight matching characters as you type.
 set incsearch
@@ -75,4 +75,5 @@ set wildmode=list:longest
 " Wildmenu will ignore files with these extensions.
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
-
+" Synchronize system clipboard
+set clipboard=unnamed
